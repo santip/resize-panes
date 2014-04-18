@@ -1,7 +1,7 @@
 {
   "name": "resize-panes",
   "main": "./lib/resize-panes",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Resize panes by enlarging or shrinking them",
   "activationEvents": [
     "resize-panes:enlarge-active-pane",
