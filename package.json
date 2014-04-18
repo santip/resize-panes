@@ -7,7 +7,7 @@
     "resize-panes:enlarge-active-pane",
     "resize-panes:shrink-active-pane"
   ],
-  "repository": "https://github.com/atom/santip-panes",
+  "repository": "https://github.com/santip/resize-panes",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
