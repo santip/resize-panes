@@ -1,0 +1,18 @@
+{
+  "name": "resize-panes",
+  "main": "./lib/resize-panes",
+  "version": "0.0.0",
+  "description": "Resize panes by enlarging or shrinking them",
+  "activationEvents": [
+    "resize-panes:enlarge-active-pane",
+    "resize-panes:shrink-active-pane"
+  ],
+  "repository": "https://github.com/atom/santip-panes",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "jquery": "2.1.0"
+  }
+}
