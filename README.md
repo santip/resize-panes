@@ -12,8 +12,8 @@ Shrinks the active pane gradually growing other panes proportionally.
 
 | Command name        | Default key binding           |
 | ------------- |:-------------:|
-| `resize-panes:enlarge-active-pane`      | `cmd-shift-=` |
-| `resize-panes:shrink-active-pane`      | `cmd-shift--` |
+| `resize-panes:enlarge-active-pane`      | `cmd-alt-=` |
+| `resize-panes:shrink-active-pane`      | `cmd-alt--` |
 
 ## Related packages
 
