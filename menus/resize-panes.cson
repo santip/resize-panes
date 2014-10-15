@@ -7,7 +7,7 @@
       'submenu': [
         { 'label': 'Enlarge active pane', 'command': 'resize-panes:enlarge-active-pane' }
         { 'label': 'Shrink active pane', 'command': 'resize-panes:shrink-active-pane' }
-       ]
+      ]
     ]
   }
 ]
