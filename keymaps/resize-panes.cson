@@ -7,6 +7,17 @@
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
-'.workspace .editor:not(.mini)':
+
+# keymaps for OSX
+'.platform-darwin .workspace .editor:not(.mini)':
   'cmd-alt-=': 'resize-panes:enlarge-active-pane'
   'cmd-alt--': 'resize-panes:shrink-active-pane'
+
+# commands for windows and Linux due to their lack of an cmd key
+'.platform-win32 .workspace .editor:not(.mini)':
+  'ctrl-alt-=': 'resize-panes:enlarge-active-pane'
+  'ctrl-alt--': 'resize-panes:shrink-active-pane'
+
+'.platform-linux .workspace .editor:not(.mini)':
+  'ctrl-alt-=': 'resize-panes:enlarge-active-pane'
+  'ctrl-alt--': 'resize-panes:shrink-active-pane'
