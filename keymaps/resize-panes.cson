@@ -9,15 +9,15 @@
 # https://atom.io/docs/latest/advanced/keymaps
 
 # keymaps for OSX
-'.platform-darwin .workspace .editor:not(.mini)':
+'.platform-darwin atom-text-editor:not([mini])':
   'cmd-alt-=': 'resize-panes:enlarge-active-pane'
   'cmd-alt--': 'resize-panes:shrink-active-pane'
 
 # commands for windows and Linux due to their lack of an cmd key
-'.platform-win32 .workspace .editor:not(.mini)':
+'.platform-win32 atom-text-editor:not(.mini)':
   'ctrl-alt-=': 'resize-panes:enlarge-active-pane'
   'ctrl-alt--': 'resize-panes:shrink-active-pane'
 
-'.platform-linux .workspace .editor:not(.mini)':
+'.platform-linux atom-text-editor:not(.mini)':
   'ctrl-alt-=': 'resize-panes:enlarge-active-pane'
   'ctrl-alt--': 'resize-panes:shrink-active-pane'
