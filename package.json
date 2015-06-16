@@ -1,11 +1,13 @@
 {
   "name": "resize-panes",
   "main": "./lib/resize-panes",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Resize panes by enlarging or shrinking them",
   "activationCommands": {
-      "atom-workspace": ["resize-panes:enlarge-active-pane",
-    "resize-panes:shrink-active-pane"]
+    "atom-workspace": [
+      "resize-panes:enlarge-active-pane",
+      "resize-panes:shrink-active-pane"
+    ]
   },
   "repository": "https://github.com/santip/resize-panes",
   "license": "MIT",
